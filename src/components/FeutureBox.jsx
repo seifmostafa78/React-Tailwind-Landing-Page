@@ -1,8 +1,10 @@
+
+
 const FeutureBox = ({ icon, title, desc }) => {
   return (
     <div className="element-center flex-col text-white text-center">
       <img
-        src={`/src/assets/images/${icon}`}
+        src={`images/${icon}`}
         alt="icon-img"
         className="w-[80px] h-[80px] object-contain"
       />

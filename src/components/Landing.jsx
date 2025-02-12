@@ -1,5 +1,3 @@
-import LandingImg from "/src/assets/images/landing-img.png";
-
 const Landing = () => {
   return (
     <section className="bg-[#1c2230]">
@@ -7,7 +5,7 @@ const Landing = () => {
         <div className="element-center flex-col pt-[200px] z-20">
           <div className="w-[750px] max-w-full">
             <img
-              src={LandingImg}
+              src="images/landing-img.png"
               alt="landing-img"
               className="w-full h-fit object-contain"
             />
@@ -35,10 +33,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="w-full h-[200px] mt-[20px]">
-        <img 
-        src="/src/assets/images/bg-curvy-desktop.svg" 
-        className="w-full h-full"
-        />
+        <img src="images/bg-curvy-desktop.svg" className="w-full h-full" />
       </div>
     </section>
   );

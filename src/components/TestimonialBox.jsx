@@ -6,7 +6,7 @@ const TestimonialBox = ({desc, image, position, name}) => {
         <p className="text-sm font-normal tracking-[0.8px] mb-[30px]">{desc}</p>
         <div className="flex items-center gap-[15px]">
             <img 
-            src={`/src/assets/images/${image}`}
+            src={`images/${image}`}
             className="w-[50px] h-[50px] rounded-full object-contain"
             />
             <div>

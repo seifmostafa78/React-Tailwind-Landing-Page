@@ -31,7 +31,7 @@ const Testimonials = () => {
       <div className="container relative">
         <div>
           <img
-            src="/src/assets/images/bg-quotes.png"
+            src="images/bg-quotes.png"
             alt="quote"
             className="absolute left-[20px] top-[-35px]"
           />

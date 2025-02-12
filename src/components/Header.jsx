@@ -24,7 +24,7 @@ const Header = () => {
       gap-[30px] sm:gap-0 flex-col sm:flex-row">
         <a href="">
           <img 
-          src="/src/assets/images/logo.svg" 
+          src="images/logo.svg"
           alt="logo-img"
           className="w-[175px] h-[66px] object-contain" 
           />

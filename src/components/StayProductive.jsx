@@ -1,12 +1,9 @@
-import StayProductiveImg from "/src/assets/images/illustration-stay-productive.png";
-import ArrowImg from "/src/assets/images/icon-arrow.svg";
-
 const StayProductive = () => {
   return (
     <section className="pb-[150px]">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px] place-items-center">
         <div>
-          <img src={StayProductiveImg} alt="stay-img" />
+          <img src="images/illustration-stay-productive.png" alt="stay-img" />
         </div>
         <div className="text-white">
           <h3 className="font-medium text-[35px] leading-[50px]">
@@ -34,7 +31,7 @@ const StayProductive = () => {
           >
             See how Fylo works
             <img
-              src={ArrowImg}
+              src="images/icon-arrow.svg"
               alt="arrow-img"
               className="w-20px h-20px object-contain animate-arrow"
             />
